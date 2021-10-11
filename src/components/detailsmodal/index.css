@@ -1,0 +1,11 @@
+
+.rocket-img{
+        width:256px;
+     height:256px;
+      margin: auto;
+      display: block;
+      border-radius:20px;
+}
+.rocket-info{
+    color: floralwhite;
+}

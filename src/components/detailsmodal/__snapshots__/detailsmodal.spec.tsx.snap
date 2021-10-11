@@ -1,0 +1,87 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`/ should render the DetailsModal View Button 1`] = `
+<div>
+  <div>
+    <button
+      class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root css-1e6y48t-MuiButtonBase-root-MuiButton-root"
+      tabindex="0"
+      type="button"
+    >
+      View
+      <span
+        class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+      />
+    </button>
+  </div>
+</div>
+`;
+
+exports[`/ should render the DetailsModal on view button click 1`] = `
+<div
+  class="MuiModal-root css-79ws1d-MuiModal-root"
+  role="presentation"
+  style="display: flex; align-items: center; justify-content: center; height: 450px; width: 450px; top: 25%; left: 35%; border-radius: 20px; background-color: rgb(0, 0, 0);"
+>
+  <div
+    aria-hidden="true"
+    class="MuiBackdrop-root css-i9fmh8-MuiBackdrop-root-MuiModal-backdrop"
+    style="opacity: 1; webkit-transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms; transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;"
+  />
+  <div
+    data-test="sentinelStart"
+    tabindex="0"
+  />
+  <div
+    class="MuiBox-root css-0"
+    tabindex="-1"
+  >
+    <img
+      alt="Falcon 9"
+      class="rocket-img"
+      src="https://images2.imgbox.com/9a/96/nLppz9HW_o.png"
+    />
+    <button
+      aria-label="close"
+      class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-lc2yqr-MuiButtonBase-root-MuiIconButton-root"
+      tabindex="0"
+      type="button"
+    >
+      <svg
+        aria-hidden="true"
+        class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+        data-testid="CloseIcon"
+        focusable="false"
+        viewBox="0 0 24 24"
+      >
+        <path
+          d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+        />
+      </svg>
+      <span
+        class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+      />
+    </button>
+    <div
+      class="rocket-info"
+    >
+      <div>
+        ID   - 
+        falcon9
+      </div>
+      <div>
+        Name - 
+        Falcon 9
+      </div>
+      <div>
+        Type - 
+        FT
+      </div>
+    </div>
+  </div>
+  <div
+    data-test="sentinelEnd"
+    tabindex="0"
+  />
+</div>
+`;
